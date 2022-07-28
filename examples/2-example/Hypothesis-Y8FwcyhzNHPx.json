@@ -1,0 +1,89 @@
+{
+    "id": "Hypothesis-Y8FwcyhzNHPx",
+    "name": "Effect size of rs1080066 on Surface Area of Precentral associated with Percentage of Females",
+    "description": "Runs meta analysis",
+    "dateCreated": "22:05:09 2021-12-03",
+    "dateModified": null,
+    "author": "enigma-disk",
+    "notes": null,
+    "question": "http://disk-project.org/resources/question/HQ3",
+    "questionBindings": [
+        {
+            "variable": "http://disk-project.org/resources/question/HQ3V1",
+            "binding": "rs1080066",
+            "collection": false,
+            "bindingAsArray": [
+                "rs1080066"
+            ]
+        },
+        {
+            "variable": "http://disk-project.org/resources/question/HQ3V2",
+            "binding": "SA",
+            "collection": false,
+            "bindingAsArray": [
+                "SA"
+            ]
+        },
+        {
+            "variable": "http://disk-project.org/resources/question/HQ3V3",
+            "binding": "Precentral",
+            "collection": false,
+            "bindingAsArray": [
+                "Precentral"
+            ]
+        },
+        {
+            "variable": "http://disk-project.org/resources/question/HQ3V4",
+            "binding": "http://localhost:8080/enigma_dev/index.php/Special:URIResolver/Property-3AHasNumberOfFemaleSex_-28E-29",
+            "collection": false,
+            "bindingAsArray": [
+                "http://localhost:8080/enigma_dev/index.php/Special:URIResolver/Property-3AHasNumberOfFemaleSex_-28E-29"
+            ]
+        }
+    ],
+    "graph": {
+        "triples": [
+            {
+                "subject": "https://enigma-disk.wings.isi.edu/disk-server/admin/test/hypotheses/Hypothesis-Y8FwcyhzNHPx#EffectSize",
+                "predicate": "https://w3id.org/disk/ontology/enigma_hypothesis#sourceGene",
+                "object": {
+                    "type": "LITERAL",
+                    "value": "rs1080066",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "details": null
+            },
+            {
+                "subject": "https://enigma-disk.wings.isi.edu/disk-server/admin/test/hypotheses/Hypothesis-Y8FwcyhzNHPx#EffectSize",
+                "predicate": "https://w3id.org/disk/ontology/enigma_hypothesis#targetCharacteristic",
+                "object": {
+                    "type": "LITERAL",
+                    "value": "Precentral",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "details": null
+            },
+            {
+                "subject": "https://enigma-disk.wings.isi.edu/disk-server/admin/test/hypotheses/Hypothesis-Y8FwcyhzNHPx#EffectSize",
+                "predicate": "https://w3id.org/disk/ontology/enigma_hypothesis#targetCharacteristic",
+                "object": {
+                    "type": "LITERAL",
+                    "value": "SA",
+                    "datatype": "http://www.w3.org/2001/XMLSchema#string"
+                },
+                "details": null
+            },
+            {
+                "subject": "https://enigma-disk.wings.isi.edu/disk-server/admin/test/hypotheses/Hypothesis-Y8FwcyhzNHPx#EffectSize",
+                "predicate": "http://disk-project.org/ontology/hypothesis#associatedWith",
+                "object": {
+                    "type": "URI",
+                    "value": "http://localhost:8080/enigma_dev/index.php/Special:URIResolver/Property-3AHasNumberOfFemaleSex_-28E-29",
+                    "datatype": null
+                },
+                "details": null
+            }
+        ]
+    },
+    "parentId": null
+}

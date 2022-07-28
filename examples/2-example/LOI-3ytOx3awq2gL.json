@@ -1,0 +1,96 @@
+{
+    "id": "LOI-3ytOx3awq2gL",
+    "name": "Meta analysis",
+    "description": "What is the effect size of Genotype on Brain Region Imaging Trait",
+    "hypothesisQuery": "?EffectSize neuro:sourceGene ?Genotype\n?EffectSize neuro:targetCharacteristic ?BrainImagingTrait\n?EffectSize neuro:targetCharacteristic ?Region",
+    "dataQuery": "?project a ?projectClass .\n?projectClass rdfs:label \"Project (E)\" .\n?project ?hasCohort ?Cohorts .\n?hasCohort rdfs:label \"HasCohort (E)\" .\n?Cohorts ?hasCohortProj ?CohortProjects .\n?hasCohortProj rdfs:label \"HasCohortProject (E)\" .\n?CohortProjects ?hasProjectResults ?ProjectResults .\n?hasProjectResults rdfs:label \"HasProjectResults (E)\" .\n?ProjectResults ?regionprop ?Region .\n?regionprop rdfs:label \"BrainRegion\" .\n?ProjectResults ?traitprop ?BrainImagingTrait .\n?traitprop rdfs:label \"Trait\" .\n?ProjectResults ?snpprop ?Genotype .\n?snpprop rdfs:label \"SNP\" .\n?ProjectResults ?contenturlProp ?ContentURL .\n?contenturlProp rdfs:label \"HasContentUrl (E)\" .",
+    "workflows": [
+        {
+            "workflow": "meta-analysis-final-version",
+            "workflowLink": "https://enigma-disk.wings.isi.edu/wings-portal/users/admin/test/workflows/meta-analysis-final-version.owl",
+            "bindings": [
+                {
+                    "variable": "inputCollection",
+                    "binding": "[?ContentURL]",
+                    "collection": true,
+                    "bindingAsArray": [
+                        "?ContentURL"
+                    ]
+                }
+            ],
+            "parameters": [
+                {
+                    "variable": "snp",
+                    "binding": "?Genotype",
+                    "collection": false,
+                    "bindingAsArray": [
+                        "?Genotype"
+                    ]
+                },
+                {
+                    "variable": "area",
+                    "binding": "?Region",
+                    "collection": false,
+                    "bindingAsArray": [
+                        "?Region"
+                    ]
+                },
+                {
+                    "variable": "trait",
+                    "binding": "?BrainImagingTrait",
+                    "collection": false,
+                    "bindingAsArray": [
+                        "?BrainImagingTrait"
+                    ]
+                }
+            ],
+            "optionalParameters": [],
+            "run": {
+                "id": null,
+                "link": null,
+                "status": null,
+                "outputs": null,
+                "files": null,
+                "startDate": null,
+                "endDate": null
+            },
+            "meta": {
+                "hypothesis": null,
+                "revisedHypothesis": null
+            },
+            "collectionVariables": [
+                "?ContentURL"
+            ],
+            "nonCollectionVariables": [],
+            "sparqlVariables": [
+                "?ContentURL"
+            ],
+            "sparqlParameters": [
+                "?Genotype",
+                "?Region",
+                "?BrainImagingTrait"
+            ]
+        }
+    ],
+    "metaWorkflows": [],
+    "notes": null,
+    "author": null,
+    "dateCreated": null,
+    "dateModified": null,
+    "relevantVariables": "?Cohorts ?ProjectResults ?ContentURL",
+    "explanation": "Cohorts and project results:",
+    "dataSource": "https://endpoint.mint.isi.edu/enigma_dev",
+    "question": "http://disk-project.org/resources/question/HQ4",
+    "allWorkflowVariables": [
+        "?ContentURL"
+    ],
+    "allWorkflowParameters": [
+        "?Region",
+        "?BrainImagingTrait",
+        "?Genotype"
+    ],
+    "allWorkflowCollectionVariables": [
+        "?ContentURL"
+    ],
+    "allWorkflowNonCollectionVariables": []
+}

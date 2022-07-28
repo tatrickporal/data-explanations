@@ -1,0 +1,56 @@
+[
+    {
+        "id": "Hypothesis-xlPsP1EL0bUC",
+        "name": "CorticalThickness is associated with Parkinsons disease [Under development]",
+        "description": "Under development ",
+        "dateModified": null,
+        "author": null,
+        "parentId": null,
+        "creationDate": null
+    },
+    {
+        "id": "Hypothesis-NRTvxqPWTdHY",
+        "name": "APOE",
+        "description": "Runs the first workflow",
+        "dateModified": null,
+        "author": null,
+        "parentId": null,
+        "creationDate": null
+    },
+    {
+        "id": "RevisedHypothesis-2g5a8ekd2d60xngmuambabvk4",
+        "name": "[Revision] APOE",
+        "description": "Followed the line of inquiry: \"Triggered: Meta workflow APOE\" to run , then run APOE4_meta_regression_hypothesis_revision meta-workflow, to create a revised hypothesis.",
+        "dateModified": null,
+        "author": null,
+        "parentId": "Hypothesis-NRTvxqPWTdHY",
+        "creationDate": null
+    },
+    {
+        "id": "Hypothesis-XTDxqwgUwF6Z",
+        "name": "Effect size of rs1080066 on Surface Area of Precentral",
+        "description": "Runs meta analysis",
+        "dateModified": null,
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "14:25:28 2021-11-08"
+    },
+    {
+        "id": "Hypothesis-GSoGkAfe0Jjz",
+        "name": "Effect size of rs1080066 on Surface Area of Precentral associated with Mean Age",
+        "description": "Runs meta regression",
+        "dateModified": null,
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "22:04:30 2021-12-03"
+    },
+    {
+        "id": "Hypothesis-Y8FwcyhzNHPx",
+        "name": "Effect size of rs1080066 on Surface Area of Precentral associated with Percentage of Females",
+        "description": "Runs meta analysis",
+        "dateModified": null,
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "22:05:09 2021-12-03"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": "LOI-m0sz57PIN9NP",
+        "name": "The EffectSize of a Genotype on BrainImagingDerivedTrait is associated with Demographic Attribute",
+        "description": "The EffectSize of a Genotype on BrainImagingDerivedTrait is associated with Demographic Attribute",
+        "dateModified": "14:00:01 2021-02-04",
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "14:00:01 2021-02-04"
+    },
+    {
+        "id": "LOI-0c85KNyhYySC",
+        "name": "BrainCharacteristic is associated with Neurological Disorder in comparison to healthy controls",
+        "description": "BrainCharacteristic is associated with Neurological Disorder in comparison to healthy controls",
+        "dateModified": "13:59:01 2021-02-04",
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "13:59:01 2021-02-04"
+    },
+    {
+        "id": "LOI-i0uINjGoLvIJ",
+        "name": "Meta workflow APOE",
+        "description": "This is an example",
+        "dateModified": "16:46:53 2021-02-04",
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "16:46:53 2021-02-04"
+    },
+    {
+        "id": "LOI-wLTSfEcLyeY8",
+        "name": "Meta regression",
+        "description": "Is the effect size of Genotype on Brain Imaging Trait of Region associated with Demographic Attribute",
+        "dateModified": "23:05:58 2022-03-22",
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "23:05:58 2022-03-22"
+    },
+    {
+        "id": "LOI-3ytOx3awq2gL",
+        "name": "Meta analysis",
+        "description": "What is the effect size of Genotype on Brain Region Imaging Trait",
+        "dateModified": "03:51:23 2022-05-27",
+        "author": "enigma-disk",
+        "parentId": null,
+        "creationDate": "03:51:23 2022-05-27"
+    }
+]
